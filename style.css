@@ -1,13 +1,33 @@
 .Button {
-  position: fixed;
-  top: 50%;
+  position: relative;
+  top: -50vh;
+  font-size: xx-large;
+}
+
+.Carousel {
+  height: 100vh;
+}
+
+img {
+  height: 100vh;
 }
 
 .Button--prev {
-  left: 1%;
+  left: 5vw;
 }
 
-
 .Button--next {
+  left: 87vw;
+}
 
+.ColoredDiv {
+  height: 60vh;
+}
+
+.ColoredDiv--top {
+  background-color: tomato;
+}
+
+.ColoredDiv--bottom {
+  background-color: teal;
 }
