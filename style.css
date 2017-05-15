@@ -1,0 +1,13 @@
+.Button {
+  position: fixed;
+  top: 50%;
+}
+
+.Button--prev {
+  left: 1%;
+}
+
+
+.Button--next {
+
+}

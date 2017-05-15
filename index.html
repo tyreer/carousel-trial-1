@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Siema Carousel Test</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="siema">
+      <div><img src="./img/1.jpg"></div>
+      <div><img src="./img/2.jpg"></div>
+      <div><img src="./img/3.jpg"></div>
+      <div><img src="./img/4.jpg"></div>
+      <div><img src="./img/5.jpg"></div>
+    </div>
+
+    <button class="Button Button--prev">👈</button>
+    <button class="Button Button--next">👉</button>
+
+    <script src="siema.min.js"></script>
+    <script>
+      const mySiema = new Siema();
+      document.querySelector('.Button--prev').addEventListener('click', () => mySiema.prev());
+      document.querySelector('.Button--next').addEventListener('click', () => mySiema.next());
+    </script>
+  </body>
+</html>
